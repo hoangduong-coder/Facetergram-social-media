@@ -1,0 +1,148 @@
+#postAvatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.postWrapper{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 6px 5px 8px -3px rgba(0,0,0,0.35); 
+    box-shadow: 6px 5px 8px -3px rgba(0,0,0,0.35);
+    margin-top: 20px;
+}
+.postUpper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.morePost{
+    margin-left: auto;
+}
+.postInfo{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 5px;
+}
+.postInfo h4{
+    margin: 0px 3px 5px 0px;
+    font-size: 18px;
+    font-family: Raleway, 'sans-serif';
+}
+.postTime{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.postTime p{
+    font-size: 14px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.postTime p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.postMiddle{
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.postBottom{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    padding: 5px;
+    cursor: default;
+}
+.postBottomGeneral{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 6px 0px;
+}
+.postBottomGeneral p{
+    margin-right: 10px;
+    color: #A9A9A9;
+    font-size: 14px;
+}
+.postBottomGeneral p:hover{
+    text-decoration: underline;
+}
+.postBottomOptions{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    padding: 2px 0px;
+    cursor: pointer;
+}
+.postOptions{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    align-items: center;
+    padding: 8px;
+    justify-content: center;
+    border-radius: 30px;
+    width: 150px;
+}
+.postOptions p{
+    margin-left: 10px;
+    font-weight: 600;
+}
+.postOptions:hover{
+    background-color: #B0C4DE;
+    transition: 0.2s;
+}
+.reactionList{
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 6px 5px 8px -3px rgba(0,0,0,0.35); 
+    box-shadow: 6px 5px 8px -3px rgba(0,0,0,0.35);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: fit-content;
+    z-index: 1;
+    position: absolute;
+}
+.Emj-Icon{
+    margin-right: 2px;
+    border-radius: 50%;
+    padding: 5px;
+    width: 22px;
+    height: 22px;
+    margin: auto;
+}
+#EmjIconImg{
+    width: 22px;
+}
+.this-icon{
+    display: flex;
+    position: static;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-basis: 150px;
+}
+.icon-list{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Emj-Icon:hover{
+    background-color: #A9A9A9;
+    transition: 0.2s;
+}

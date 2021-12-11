@@ -1,0 +1,17 @@
+.feed{
+    flex: 5;
+    margin-left: 50vh;
+    margin-right: 52vh;
+}
+.feedWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    width: 85%;
+    margin: auto;
+}
+#post-img{
+    position: relative;
+    width: 100%;
+}

@@ -1,0 +1,55 @@
+.status{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 6px 5px 8px -3px rgba(0,0,0,0.35); 
+    box-shadow: 6px 5px 8px -3px rgba(0,0,0,0.35);
+}
+.topStt{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+#ava{
+    border-radius: 50%;
+    width: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#sttText{
+    background-color: #F0F0F0;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 30px;
+    height: 36px;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    width: 85%;
+    cursor: pointer;
+}
+.bottomStt{
+    margin-top: 5px;
+    padding: 5px 2px;
+}
+.sttOptions{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 4px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.sttOptionsName{
+    font-weight: 500;
+    margin-left: 5px;
+}
+.sttOptions:hover{
+    background-color: #B0C4DE;
+    transition: 0.2s;
+}
