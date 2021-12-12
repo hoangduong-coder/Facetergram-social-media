@@ -6,14 +6,17 @@ const morgan = require("morgan");
 const userRoute = require("./routes/users");
 const authRoute = require("./routes/auth");
 const postRoute = require('./routes/status');
-
+dotenv.config()
 const app = express();
-const port = 8800;
+const port = process.env.PORT
 
-dotenv.config();
-mongoose.connect(process.env.MONGO_URL, () => {
-    console.log("Connected successfully!")
-});
+mongoose.connect(process.env.MONGO_URL)
+    .then(result => {
+        console.log("Connected successfully!")
+    })
+    .catch(error => {
+        console.log(error.message)
+    })
 
 app.use(express.json());
 app.use(helmet());
